@@ -39,6 +39,17 @@ namespace AssOOP3
             Manager manager = new Manager();
             manager.Work();
             #endregion
+
+            #region Q5
+            BaseClass baseClass = new BaseClass();
+            baseClass.Message();
+            BaseClass drived = new DerivedClass1();
+            drived.Message();
+            BaseClass drived2 = new DerivedClass2();
+            drived2.Message();
+            DerivedClass2 obj = new DerivedClass2();
+            obj.Message();
+            #endregion
         }
     }
 }
