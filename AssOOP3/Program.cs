@@ -32,6 +32,13 @@ namespace AssOOP3
             Console.WriteLine(plus);
             Console.WriteLine(minus);
             #endregion
+
+            #region Q4
+            Employee emp = new Employee();
+            emp.Work();
+            Manager manager = new Manager();
+            manager.Work();
+            #endregion
         }
     }
 }
